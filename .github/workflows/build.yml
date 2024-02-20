@@ -27,13 +27,13 @@ jobs:
 
     - name: Restore dependencies
       run: dotnet restore ./src/WebApp.sln
-    
+
     - name: Build
       run: dotnet build --no-restore ./src/WebApp.sln
-    
+
     - name: Test
       run: dotnet test --no-build --verbosity normal ./src/WebApp.sln
-    
+
     - name: SonarCloud Scan
       uses: SonarSource/sonarcloud-github-action@v2.1.1
       env:
@@ -43,3 +43,4 @@ jobs:
         args: >
           -Dsonar.organization=ullet
           -Dsonar.projectKey=sonarcloud-test
+          -Dsonar.externalIssuesReportPaths='./dependency-check-sonarcloud.json'

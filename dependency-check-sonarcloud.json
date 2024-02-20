@@ -1,0 +1,104 @@
+{
+  "issues": [
+    {
+      "primaryLocation": {
+        "message": "A Critical Vulnerability",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "CRITICAL",
+      "ruleId": "CVE-2099-00001",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "A Major Vulnerability",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "MAJOR",
+      "ruleId": "CVE-2099-00002",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Another Major Vulnerability",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "MAJOR",
+      "ruleId": "CVE-2099-00003",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Yet another Major Vulnerability",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "MAJOR",
+      "ruleId": "CVE-2099-00004",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Major Vulnerability in a different component",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "MAJOR",
+      "ruleId": "CVE-2099-00005",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Another Critical Vulnerability",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "CRITICAL",
+      "ruleId": "CVE-2099-00006",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Yet another Critical Vulnerability",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "CRITICAL",
+      "ruleId": "CVE-2099-00007",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Another Major Vulnerability in a different component",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "MAJOR",
+      "ruleId": "CVE-2099-00008",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Yet Another Major Vulnerability in a different component",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "MAJOR",
+      "ruleId": "CVE-2099-00009",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    },
+    {
+      "primaryLocation": {
+        "message": "Critical Vulnerability in a different component",
+        "filePath": "./src/WebApp/Program.cs"
+      },
+      "severity": "CRITICAL",
+      "ruleId": "CVE-2099-00010",
+      "engineId": "DependencyCheck",
+      "type": "VULNERABILITY"
+    }
+  ]
+}
