@@ -43,4 +43,4 @@ jobs:
         args: >
           -Dsonar.organization=ullet
           -Dsonar.projectKey=sonarcloud-test
-          -Dsonar.externalIssuesReportPaths='${{ github.workspace }}/dependency-check-sonarcloud.json'
+          -Dsonar.externalIssuesReportPaths=${{ github.workspace }}/dependency-check-sonarcloud.json
